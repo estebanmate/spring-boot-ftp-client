@@ -1,4 +1,4 @@
-package com.github.kuljaninemir.springbootftpclient;
+package com.serikat.ftp.service;
 
 import java.io.InputStream;
 import java.io.OutputStream;

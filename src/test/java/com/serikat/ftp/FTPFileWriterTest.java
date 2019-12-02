@@ -1,4 +1,4 @@
-package com.github.kuljaninemir.springbootftpclient;
+package com.serikat.ftp;
 
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -8,6 +8,10 @@ import org.mockftpserver.fake.FakeFtpServer;
 import org.mockftpserver.fake.UserAccount;
 import org.mockftpserver.fake.filesystem.*;
 import org.mockito.Mockito;
+
+import com.serikat.ftp.config.FTPProperties;
+import com.serikat.ftp.service.FTPFileWriter;
+import com.serikat.ftp.service.FTPFileWriterImpl;
 
 import java.io.ByteArrayOutputStream;
 

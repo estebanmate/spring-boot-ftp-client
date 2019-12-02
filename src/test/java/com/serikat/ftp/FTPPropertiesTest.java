@@ -1,6 +1,8 @@
-package com.github.kuljaninemir.springbootftpclient;
+package com.serikat.ftp;
 
 import org.junit.Test;
+
+import com.serikat.ftp.config.FTPProperties;
 
 import static junit.framework.TestCase.assertTrue;
 
