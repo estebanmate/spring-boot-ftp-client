@@ -2,27 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.kuljaninemir</groupId>
-    <artifactId>spring-boot-ftp-client</artifactId>
-    <version>2.0.05</version>
+    <groupId>com.serikat.ftp</groupId>
+    <artifactId>ftp-client</artifactId>
+    <version>1</version>
 
-    <name>spring-boot-ftp-client</name>
-    <description>Demo project for Spring Boot</description>
-
-    <url>https://github.com/kuljaninemir/spring-boot-ftp-client</url>
-
-    <distributionManagement>
-        <repository>
-            <id>bintray-kuljaninemir-maven</id>
-            <name>kuljaninemir-maven</name>
-            <url>https://api.bintray.com/maven/kuljaninemir/maven/spring-boot-ftp-client/;publish=1</url>
-        </repository>
-    </distributionManagement>
-
-    <issueManagement>
-        <url>https://github.com/kuljaninemir/spring-boot-ftp-client/issues</url>
-        <system>GitHub Issues</system>
-    </issueManagement>
+    <name>ftp-client</name>
+    <description>FTP client Library for Nymiz</description>
 
     <licenses>
         <license>
@@ -30,22 +15,6 @@
             <url>http://www.opensource.org/licenses/mit-license.php</url>
         </license>
     </licenses>
-
-    <scm>
-        <url>https://github.com/kuljaninemir/spring-boot-ftp-client</url>
-        <connection>scm:git:https://github.com/kuljaninemir/spring-boot-ftp-client.git</connection>
-        <developerConnection>scm:git:https://github.com/kuljaninemir/spring-boot-ftp-client.git</developerConnection>
-        <tag>HEAD</tag>
-    </scm>
-
-    <developers>
-        <developer>
-            <email>kuljaninemir@gmail.com</email>
-            <name>Emir Kuljanin</name>
-            <url>https://github.com/kuljaninemir</url>
-            <id>kuljaninemir</id>
-        </developer>
-    </developers>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
