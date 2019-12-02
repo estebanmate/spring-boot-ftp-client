@@ -9,7 +9,7 @@ Add the following dependency:
 ```
 <dependency>
   <groupId>com.serikat.ftp</groupId>
-  <artifactId>spring-boot-ftp-client</artifactId>
+  <artifactId>ftp-client</artifactId>
   <version>1</version>
 </dependency>
 ```
